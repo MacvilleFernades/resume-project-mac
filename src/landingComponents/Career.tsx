@@ -18,7 +18,7 @@ const CareerCard = ({ icon, title, content, year, index }:appProps) => (
     <div
       className={`w-[64px] flex items-center justify-center  rounded-full ${styles.flexStart}`}
     >
-      <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
+      {/* <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" /> */}
     </div>
     <div className="flex-1 flex flex-col ml-3">
       <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1">

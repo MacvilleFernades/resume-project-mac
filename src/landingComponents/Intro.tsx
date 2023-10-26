@@ -29,7 +29,7 @@ const Intro = () => {
       </div>
 
       <div className={`flex-1 flex-col justify-center items-center md:my-0 my-10 relative`}>
-        <img src={macville} alt="home" className="rounded-full w-[100%] h-[100%] md:w-[80%] relative z-[4]" />
+        {/* <img src={macville} alt="home" className="rounded-full w-[100%] h-[100%] md:w-[80%] relative z-[4]" /> */}
       </div>
     </section>
   );

@@ -10,7 +10,7 @@ const MainHobbies = () => {
             {data.map((item) => (
               <div className="flex justify-between flex-col px-10 py-2 rounded-[20px]  max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 hobbie-card ">
                 <a href="#">
-                  <img className="rounded-t-lg" src={item.src} alt="" />
+                  {/* <img className="rounded-t-lg" src={item.src} alt="" /> */}
                 </a>
                 <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
                   {item.hobbie_name}

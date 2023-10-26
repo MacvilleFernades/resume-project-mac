@@ -43,7 +43,7 @@ const Footer = () => (
       </p> */}
 
       <div className="flex flex-row md:mt-0 mt-6">
-        {socialMedia.map((social, index) => (
+        {/* {socialMedia.map((social, index) => (
           <img
             key={social.id}
             src={social.icon}
@@ -53,7 +53,7 @@ const Footer = () => (
             }`}
             onClick={() => window.open(social.link)}
           />
-        ))}
+        ))} */}
       </div>
     </div>
   </section>
