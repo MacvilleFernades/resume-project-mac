@@ -1,5 +1,5 @@
 import styles from "../style";
-import {macville } from "../assets";
+// import {macville } from "../assets";
 
 
 const Intro = () => {

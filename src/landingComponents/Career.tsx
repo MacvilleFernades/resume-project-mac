@@ -4,12 +4,12 @@ import styles, { layout } from "../style";
 type appProps = {
   year: string,
   content: string,
-  icon:string,
+  // icon:string,
   title: string,
   index: number
 };
 
-const CareerCard = ({ icon, title, content, year, index }:appProps) => (
+const CareerCard = ({ title, content, year, index }:appProps) => (
   <div
     className={`flex flex-row p-6 rounded-[20px] ${
       index !== features.length - 1 ? "mb-6" : "mb-0"
