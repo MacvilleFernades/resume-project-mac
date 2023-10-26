@@ -4,12 +4,12 @@ import styles, { layout } from "../style";
 type appProps = {
   year: string,
   content: string,
-  // icon:string,
+  icon:string,
   title: string,
   index: number
 };
 
-const CareerCard = ({ title, content, year, index }:appProps) => (
+const CareerCard = ({ icon, title, content, year, index }:appProps) => (
   <div
     className={`flex flex-row p-6 rounded-[20px] ${
       index !== features.length - 1 ? "mb-6" : "mb-0"
@@ -18,7 +18,7 @@ const CareerCard = ({ title, content, year, index }:appProps) => (
     <div
       className={`w-[64px] flex items-center justify-center  rounded-full ${styles.flexStart}`}
     >
-      {/* <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" /> */}
+      <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
     </div>
     <div className="flex-1 flex flex-col ml-3">
       <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1">
